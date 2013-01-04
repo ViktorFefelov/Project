@@ -15,6 +15,7 @@
 		E93B0B4E162833850041B366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E93B0B4D162833850041B366 /* AppDelegate.m */; };
 		E93B0B51162833850041B366 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93B0B4F162833850041B366 /* MainStoryboard.storyboard */; };
 		E93B0B54162833850041B366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93B0B53162833850041B366 /* ViewController.m */; };
+		E93B0B5C162838360041B366 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E93B0B5B162838360041B366 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		E93B0B3D162833850041B366 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E93B0B3F162833850041B366 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E93B0B41162833850041B366 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E93B0B45162833850041B366 /* Project-Info.plist */ = {isa = PBXFileReference; path = "Project-Info.plist"; sourceTree = "<group>"; };
+		E93B0B45162833850041B366 /* Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project-Info.plist"; sourceTree = "<group>"; };
 		E93B0B47162833850041B366 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E93B0B49162833850041B366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E93B0B4B162833850041B366 /* Project-Prefix.pch */ = {isa = PBXFileReference; path = "Project-Prefix.pch"; sourceTree = "<group>"; };
-		E93B0B4C162833850041B366 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E93B0B4B162833850041B366 /* Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project-Prefix.pch"; sourceTree = "<group>"; };
+		E93B0B4C162833850041B366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E93B0B4D162833850041B366 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E93B0B50162833850041B366 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E93B0B52162833850041B366 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E93B0B52162833850041B366 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E93B0B53162833850041B366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E93B0B5A162838360041B366 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E93B0B5B162838360041B366 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				E93B0B52162833850041B366 /* ViewController.h */,
 				E93B0B53162833850041B366 /* ViewController.m */,
 				E93B0B44162833850041B366 /* Supporting Files */,
+				E93B0B5A162838360041B366 /* MainViewController.h */,
+				E93B0B5B162838360041B366 /* MainViewController.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				E93B0B4A162833850041B366 /* main.m in Sources */,
 				E93B0B4E162833850041B366 /* AppDelegate.m in Sources */,
 				E93B0B54162833850041B366 /* ViewController.m in Sources */,
+				E93B0B5C162838360041B366 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
